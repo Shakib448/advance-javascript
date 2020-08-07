@@ -18,4 +18,4 @@ const names = students.map(s => s.name);
 const ids = students.map(i => i.id);
 const bigger = students.filter(i => i.id > 30);
 const biggerOne = students.find(i => i.id > 30);
-console.log(biggerOne);
+console.log(names, ids, bigger, biggerOne);
